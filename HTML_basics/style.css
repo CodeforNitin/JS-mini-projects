@@ -36,3 +36,24 @@ div{
     margin: 20px;
     padding: 20px;
   }
+
+  #myHeader1 {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+
+  #myHeader2 {
+    background-color: rgb(25, 102, 128);
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+
+  #myHeader3 {
+    background-color: rgb(111, 170, 190);
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
