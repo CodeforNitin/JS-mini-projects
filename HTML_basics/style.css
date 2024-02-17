@@ -10,3 +10,10 @@ h1{
 #p2{
     background-color: hotpink;
 }
+
+td, th, table{
+    border: 2px solid ;
+    border-collapse: collapse;
+    border-style: dotted;
+}
+
