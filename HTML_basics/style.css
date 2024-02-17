@@ -1,3 +1,12 @@
 body{
-    background-color: red;
+    background-color: paleturquoise;
+}
+
+h1{
+    background-color: peachpuff;
+    color: darkblue;
+}
+
+p{
+    background-color: hotpink;
 }
