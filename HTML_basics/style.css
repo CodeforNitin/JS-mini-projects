@@ -17,3 +17,15 @@ td, th, table{
     border-style: dotted;
 }
 
+div{
+    background-color: yellow;
+}
+
+#s1{
+    background-color: rgb(227, 196, 255);
+}
+
+#s2{
+    background-color: rgb(142, 143, 174);
+}
+
