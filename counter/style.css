@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(219, 229, 216, 0.895);
+    background-color: rgba(255, 255, 255, 0.895);
 }
 
 #value{
@@ -25,12 +25,15 @@ body {
 }
 
 .container{
-    width: 55%;
+
+    width:40%;
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 233, 233, 0.895);
+    border-radius: 20px;
 }
 
 .btn-container{
@@ -45,4 +48,10 @@ body {
     margin: 0px 20px;
     font-size: 15px;  
     border: 3px solid rgba(147, 142, 142, 0.763); 
+}
+
+
+.scale-up {
+    transform: scale(1.1); /* Scale the element by 1.1x */
+    transition: transform 0.2s; /* Add a smooth transition effect */
 }
