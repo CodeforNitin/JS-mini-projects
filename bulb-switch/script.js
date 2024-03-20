@@ -22,4 +22,23 @@
                 isOn=false;
             }
         });
+
+        button.addEventListener('mouseover', function(e){
+
+            button.classList.add('scale');
+            if (e.currentTarget.classList.contains('on')){
+                button.style.boxShadow = '0 0 10px 5px yellow';
+            }
+            
+            else{
+                button.style.boxShadow = '0 0 10px 5px grey';
+            }
+        });
+
+        
+        button.addEventListener('mouseout', function(e){
+
+            button.classList.remove('scale');
+            button.style.boxShadow = 'none';
+        });
     });
