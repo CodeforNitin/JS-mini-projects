@@ -17,13 +17,18 @@ body{
     flex-direction: column;
     padding: 10px 10px;
     align-items: center;
-    background-color: rgb(0, 0, 0);
     width: 45%;
 }
 
-#image1{
+.img-off#image{
     height: 50vh;
     width: 50%;
+    margin: 10px 10px;
+}
+
+.img-on#image{
+    height: 52vh;
+    width: 40%;
     margin: 10px 10px;
 }
 
@@ -31,5 +36,13 @@ body{
     width: 80px;
     height: 30px;
     margin: 30px 10px;
+    border-radius: 7px;
 }
+
+.scale{
+    transition: transform 0.2s; /* Add a smooth transition effect */
+    transform: scale(1.1); /* Scale the element by 1.1x */
+}
+
+
 
